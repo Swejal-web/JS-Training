@@ -17,7 +17,7 @@ const createHtmlElement = (tag, data) => {
   const element = document.createElement(tag);
   if (tag === "img") {
     element.src =
-      "https://scontent.fktm3-1.fna.fbcdn.net/v/t39.30808-6/274242740_1145919886162116_1128837405799609912_n.jpg?_nc_cat=103&ccb=1-6&_nc_sid=09cbfe&_nc_ohc=vwaC0nZ2SuUAX-uJ2O2&tn=w2A6O__1Xh1b4qIV&_nc_ht=scontent.fktm3-1.fna&oh=00_AT_PCYYDTPKCS4a-gMkGwnD5bu7gL8fJ4AmlitNiyNMk7g&oe=627EEBF1";
+      "swejal.jpg";
     page.appendChild(element);
     return element;
   }
