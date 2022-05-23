@@ -1,0 +1,11 @@
+#root {
+    width: 700px;
+    height: 700px;
+    background-color: grey;
+
+}
+
+.inner-div {
+    width: 100px;
+    height: 100px;
+}
