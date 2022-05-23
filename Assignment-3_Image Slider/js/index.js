@@ -1,4 +1,3 @@
-
 const root = document.getElementById("root");
 
 const viewPort = document.getElementById("viewport");
