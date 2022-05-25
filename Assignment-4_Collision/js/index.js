@@ -1,16 +1,11 @@
 
 const mainDiv = document.getElementById("root");
-//const secondDiv = document.getElementById("second-root");
+
 
 mainDiv.style.width = 1750 + "px";
 mainDiv.style.height = 900 + "px";
 mainDiv.style.backgroundColor = "grey";
 
-// secondDiv.style.marginTop = 100 + "px";
-// secondDiv.style.top = 1100 + "px";
-// secondDiv.style.width = 1750 + "px";
-// secondDiv.style.height = 900 + "px";
-// secondDiv.style.backgroundColor = "grey";
 
 const maxLength = {
   x: 1750,
