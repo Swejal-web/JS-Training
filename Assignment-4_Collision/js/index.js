@@ -128,7 +128,7 @@ for (i = 0; i < totalRectangles; i++) {
 
   directionX = Math.random() < 0.5 ? 1 : -1;
   directionY = Math.random() < 0.5 ? 1 : -1;
-  speed = Math.floor(Math.random() * (15 - 5 + 1)) + 5;
+  speed = Math.floor(Math.random() * (8 - 2 + 1)) + 2;
   color = getRandomColor();
 
   const box = new Box(
