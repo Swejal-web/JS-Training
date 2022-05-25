@@ -43,6 +43,7 @@ class Box {
     this.color = color;
     this.divBox = this.drawBox();
     this.moveBox(totalBoxes);
+    this.deleteBox(totalBoxes);
   }
 
   drawBox() {
@@ -56,6 +57,14 @@ class Box {
     div.style.left = this.positionX + "px";
     div.style.top = this.positionY + "px";
     return div;
+  }
+  
+  deleteBox(totalBoxes) {
+    if (totalBoxes.length < 10) {
+      this.divBox.addEventListener("click", () => {
+        this.divBox.style.display = "none";
+      });
+    }
   }
 
   moveBox(totalBoxes) {
