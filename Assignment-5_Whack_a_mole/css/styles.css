@@ -1,1 +1,28 @@
 
+#game-box{
+    width: 800px;
+    height: 750px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.box{
+    width: 250px;
+    height: 250px;
+    border-style: solid; 
+}
+
+.box.mole img{
+   width: 250px;
+   height: 250px;
+    background-image: url('../mole.jpeg');
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+       
+}
+
+#result{
+    display: none;
+}
