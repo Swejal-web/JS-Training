@@ -217,7 +217,7 @@ function gameLoop() {
     drawGameOver();
   }
 
-  if (!game) {
+  if (!gamePause) {
     game = requestAnimationFrame(gameLoop);
   }
 
