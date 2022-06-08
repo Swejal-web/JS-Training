@@ -1,8 +1,8 @@
 export default class Brick {
-  constructor(brickPositionX, brickPositionY) {
+  constructor(brickPositionX, brickPositionY, game) {
     this.brickPositionX = brickPositionX;
     this.brickPositionY = brickPositionY;
-    this.brickWidth = 160;
+    this.brickWidth = game.canvasWidth / 10;
     this.brickHeight = 30;
     this.markedForDeletion = false;
     this.color = "blue";
