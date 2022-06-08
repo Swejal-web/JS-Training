@@ -18,10 +18,10 @@ export default class Game {
     level.forEach((row, rowIndex) => {
       row.forEach((brick, brickIndex) => {
         if (brick === 1) {
-          brickPositionX = brickIndex * 160;
+          brickPositionX = brickIndex * (this.canvasWidth / 10);
           brickPositionY = 120 + rowIndex * 30;
         }
-        this.brickArray.push(new Brick(brickPositionX, brickPositionY));
+        this.brickArray.push(new Brick(brickPositionX, brickPositionY, this));
       });
     });
   }
