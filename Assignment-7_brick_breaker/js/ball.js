@@ -1,12 +1,12 @@
 export default class Ball {
   constructor(game) {
     this.ballPositionX = 200;
-    this.ballPositionY = 400;
+    this.ballPositionY = 700;
     this.ballRadius = 15;
     this.color = "black";
     this.ballSpeed = 3;
     this.directionX = 1;
-    this.directionY = 1;
+    this.directionY = -1;
     this.game = game;
   }
 
