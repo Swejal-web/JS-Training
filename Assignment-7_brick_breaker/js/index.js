@@ -3,8 +3,14 @@ import Game from "./game.js";
 const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
 
-const canvasWidth = 1600;
-const canvasHeight = 800;
+const canvasWidth = 0.8 * window.screen.width;
+
+canvas.width = canvasWidth;
+
+const canvasHeight = 0.8 * window.screen.height;
+
+canvas.width = canvasWidth;
+canvas.height = canvasHeight;
 
 let id = null;
 
